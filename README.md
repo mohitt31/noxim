@@ -1,3 +1,14 @@
+> **Fork note — contributions by [mohitt31](https://github.com/mohitt31)**
+>
+> This is a fork of [`davidepatti/noxim`](https://github.com/davidepatti/noxim) with upstreamed traffic-model work:
+>
+> - **PR #166 — merged into `davidepatti:master`:** `TRAFFIC_HOTSPOT` config parser + per-PE traffic dispatcher; fixes upstream issue #109. → https://github.com/davidepatti/noxim/pull/166
+> - **PR #167 — open / in review:** `TRAFFIC_DNN_LAYER`, an output-stationary Conv2D traffic model (+1,008 lines, into `davidepatti:integration/dnn-traffic`). Validated against AlexNet CONV2 (Eyeriss, ISCA 2016): ~12× higher average delay and ~8× lower throughput vs uniform random on an 8×8 mesh. → https://github.com/davidepatti/noxim/pull/167
+>
+> All content below is from upstream Noxim by Prof. Davide Patti (University of Catania).
+
+---
+
 Noxim - the NoC Simulator
 =========================
 
